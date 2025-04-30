@@ -64,9 +64,9 @@ class Player {
         return false;
       }
     }
-    shoot() {
-        let p = new Projectile(this.x, this.y, this.z);
-        this.projectiles.push(p)
+    // shoot() {
+    //     let p = new Projectile(this.x, this.y, this.z);
+    //     this.projectiles.push(p)
     }
   }
   
