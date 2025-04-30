@@ -1,6 +1,6 @@
 class Asteroid {
     constructor() {
-      this.x = random(-600, 600);
+      this.x = random(innerHeight, innerWidth);
       this.y = random(-600, 600);
       this.z = random(-3000, -2000);
       this.size = random(25, 50);
