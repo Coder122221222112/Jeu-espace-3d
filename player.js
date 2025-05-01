@@ -46,9 +46,9 @@ class Player {
         this.vx = this.max_speed;
         this.viz = 4.99;
       }
-      if (keyIsDown(32)){
-        this.shoot()
-      }
+      // if (keyIsDown(32)){
+      //   this.shoot()
+      // }
     }
     isColliding(asteroid) {
       let marge_x = 50;
